@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace CursoCSharp.EstruturasDeControle {
-    class EstruturaIf {
+    class EstruturaIfElse {
         public static void Executar() {
             
             bool par = true;
@@ -15,11 +15,10 @@ namespace CursoCSharp.EstruturasDeControle {
             if(par){
                 Console.Write("O número {0} é par",number);
             }
-            if(!par){
+            else{
                 Console.WriteLine("O número {0} não é par", number);
             }
-            //entrada.ToLower() -> transforma letra maiuscula em minuscula
-
+            
 
            
         }
