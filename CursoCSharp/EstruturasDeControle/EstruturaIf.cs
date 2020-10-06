@@ -10,7 +10,7 @@ namespace CursoCSharp.EstruturasDeControle {
             string entrada;
             Console.Write("Digite um número: ");
             entrada=Console.ReadLine();
-            Double.TryParse(entrada, out double number);
+            double.TryParse(entrada, out double number);
             par = number%2==0;
             if(par){
                 Console.Write("O número {0} é par",number);

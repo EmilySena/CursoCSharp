@@ -10,7 +10,7 @@ namespace CursoCSharp.EstruturasDeControle {
             string entrada;
             Console.Write("Digite um número: ");
             entrada=Console.ReadLine();
-            Double.TryParse(entrada, out double number);
+            double.TryParse(entrada, out double number);
             par = number%2==0;
             bool divisivelPor3 = number%3==0;
             bool divisivelPor5 = number%5==0;
